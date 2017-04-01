@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rarkebauer/timestamp"
+  },
+  "author": "Rachel Arkebauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rarkebauer/timestamp/issues"
+  },
+  "homepage": "https://github.com/rarkebauer/timestamp"
+}
