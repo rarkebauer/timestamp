@@ -24,4 +24,4 @@ module.exports = {
 			return null;
 		}
 	}
-} 
+} //module.exports
