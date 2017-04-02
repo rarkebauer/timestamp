@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rarkebauer/timestamp/issues"
   },
-  "homepage": "https://github.com/rarkebauer/timestamp"
+  "homepage": "https://github.com/rarkebauer/timestamp",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  }
 }
