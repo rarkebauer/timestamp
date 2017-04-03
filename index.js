@@ -4,6 +4,8 @@ var app = express();
 //require the dates.js file
 var date = require('./dates.js');
 
+var port = process.env.PORT || 3000;
+
 //give directions on the home page
 app.get('/', function(req, res) {
 	res.send('Welcome to the date converter. Type a valid unix date in the url to return the natural date or type a natural date in the form /Month Day, Year to return the corresponding unix date');
@@ -39,6 +41,6 @@ function dateRoute(req, res) { //req.params[0] is what you typed into the addres
 app.get("/*", dateRoute);
 
 
-app.listen(3000, function() {
+app.listen(port, function() {
 	console.log('Example app listening on port 3000!')
 });
